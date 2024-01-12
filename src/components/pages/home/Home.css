@@ -55,7 +55,7 @@
 .box-content{
   margin-left: 16px;
 }
-.box-content .a Link {
+.box-content .a a {
     text-decoration: none;
     color: #007185;
     display: block;

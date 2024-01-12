@@ -69,10 +69,11 @@ ul li{
   .pages{
   padding-top: 25px;
   }
-  .pages Link{
-    text-decoration: none;
-  color: white;
-    }
+
+  .pages a {
+    color: white;
+    text-decoration: none; /* Optional: removes the default underline */
+  }
 
 .copyright{
     padding-top: 5px;
