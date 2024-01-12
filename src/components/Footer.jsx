@@ -64,12 +64,12 @@ export const Footer = () => {
     </div>
     <div className="foot-pannel-4">
         <div className='pages'>
-          <Link href="">Conditions of use </Link>
-          <Link>Privacy Notes</Link>
+          <Link to="/about">Conditions of use </Link>
+          <Link to="/">Privacy Notes</Link>
           <Link>Your ads Privacy Choices</Link>
         </div>
         <div className="copyright">
-        © 1996-2024, Amazon.com, Inc. or its affiliates
+        @ 1996-2024, Amazon.com, Inc. or its affiliates
         </div>
     </div>
   </footer>

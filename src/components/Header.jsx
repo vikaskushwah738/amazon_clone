@@ -31,7 +31,7 @@ function Header() {
             <CiSearch />
           </div>
         </div>
-        <div className="flag">
+        <div className="flag bord">
           <div className='flag-icon'>
           <FaFlagUsa />
           </div>
