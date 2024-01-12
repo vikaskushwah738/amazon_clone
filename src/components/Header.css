@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  font-family: Arial;
+  padding: 0;
+}
+.nav{
+   height: 60px;
+   background-color: #0f1111;
+   color: white;
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+  }
+.nav-logo{
+  height: 50px;
+  width: 100px;
+}
+.logo{
+  background-image: url('../assets/logo.png');
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+}
+.bord{
+  margin-top: 4px;
+  height: 50px;
+  border: 1.5px solid transparent;
+}
+.bord:hover{
+  border: 1.5px solid white;
+}
+
+/* ** box2 ** */
+.add-first{
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.add-sec{
+  font-size: 1rem;
+  margin-left: 4px;
+}
+.add-icon{
+  display: flex;
+  align-items: center;
+}
+.icon{
+  margin-bottom: 17px;
+}
+ /* *box-3* */
+
+ .nav-search{  
+  display: flex;
+  justify-content: space-evenly;
+  height: 40px;
+  margin-top: 10px;
+  width: 620px;
+ }
+ .search-input{
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+ }
+ .search-select{
+  background-color: #f3f3f3;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  border-top-left-radius: 4px ;
+  border-bottom-left-radius: 4px ;
+ }
+ .search-icon{
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #febd68;
+  border-top-right-radius: 4px ;
+  border-bottom-right-radius: 4px ;
+  color:#0f1111; 
+}
+
+/* box-4 */
+
+span{
+  font-size: 0.7rem;
+}
+.nav-second{
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.nav-singin {
+  margin: 0;
+  margin-top: 5px;
+}
+.nav-singin p {
+  margin: 0;
+}
+
+/* box-5 */
+.nav-return{
+  margin: 0;
+  margin-top: 5px;
+}
+
+.nav-return p{
+  margin: 0;
+}
+
+/* box-6 */
+.i{
+  margin-top: 5px;
+  font-size:38px ;
+}
+.nav-cart{
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: flex;
+}
+.nav-cart p{
+  margin-top: 25px;
+}
+
+/* box-7 */
+.flag{
+  display: flex;
+}
+#cars{
+  margin-left: 5px;
+  background-color: transparent;
+  color: white;
+  font-size: 0.85rem;
+  border: none;
+}
+.flag-icon{
+  margin-top: 20px;
+}
+
+/* -----------------------------------
+----------------------------------- */
+
+.panel{
+  height: 40px;
+  background-color: #222f3d;
+  color: white;
+  display: flex ;
+  align-items: center;
+   
+}
+
+.panel-ops p{
+  display: inline;
+  margin-left: 15px;
+}
+.panel-ops{
+  width: 70%;
+  font-size: 0.85rem;
+}
