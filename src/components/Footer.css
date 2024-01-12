@@ -68,11 +68,13 @@ ul li{
 
   .pages{
   padding-top: 25px;
+   
   }
 
   .pages a {
     color: white;
-    text-decoration: none; /* Optional: removes the default underline */
+    text-decoration: none;
+    margin-right: 10px;
   }
 
 .copyright{
